@@ -1,0 +1,96 @@
+.main-box{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255, 0.9);
+}
+.main-content{
+    margin: 0 auto;
+    padding: 10% 0 5% 0;
+    width: 90%;
+    height: 100%;
+}
+.main-content>h5{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(57, 57, 113);
+}
+.main-content> .ment{
+    font-size: 18px;
+    text-align: center;
+    margin: 3% 0 5% 0;
+}
+.content-des1{
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid rgb(216, 216, 216);
+    padding-bottom: 5%;
+}
+.content-des1>.des1>h5{
+    font-size: 22px;
+    width: 100px;
+    padding: 1% 0 1% 0;
+    color: white;
+    border-radius: 5%;
+    margin: 0 auto;
+    background-color: #557DE1;
+}
+.content-des1>.des1{
+    width: 50%;
+    text-align: center;
+}
+.content-des1>.des1>img{
+    max-width: 100%;
+    height: auto;
+    filter: invert(52%) sepia(53%) saturate(569%) hue-rotate(185deg) brightness(90%) contrast(97%);    width: 300px;
+    font-size: 18px;
+    object-fit: cover;
+}
+.content-des1>.des1>p{
+    margin: auto;
+    width: 50%;
+    font-size: 18px;
+}
+.content-des2{
+    width: 100%;
+    padding-bottom: 5%;
+}
+.content-des2>h5{
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(57, 57, 113);
+    margin-top: 5%;
+}
+.content-des2>.service{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5% 0 0 0;
+}
+.content-des2>.service>img{
+    max-width: 40%;
+    height: auto;
+    object-fit: scale-down;
+    filter: invert(52%) sepia(53%) saturate(569%) hue-rotate(185deg) brightness(90%) contrast(97%);    width: 300px;
+}
+.content-des2>.service>.service-des1,.service-des2{
+    width: 60%;
+}
+.content-des2>.service>.service-des1>h5,.service-des2>h5{
+    color:#557DE1;
+    margin: 5% 0;
+    font-weight: 600;
+    font-size: 22px;
+}
+.content-des2>.service>.service-des1{
+    margin-left: 5%;
+    text-align: left;
+    font-size: 18px;
+}
+.content-des2>.service>.service-des2{
+    margin-right: 5%;
+    text-align: right;
+    font-size: 18px;
+}
