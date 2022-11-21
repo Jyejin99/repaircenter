@@ -1,0 +1,77 @@
+/* 게시판 */
+.board_list{
+    margin-top: 5%;
+    width: 100%;
+}
+.board_list li { 
+    padding: 10px 0; 
+    border-top: solid 2px rgb(216, 216, 216); 
+    border-bottom: solid 1px rgb(216, 216, 216); 
+}
+.col_list{
+    color: rgb(57, 57, 113);
+    font-weight: 600;
+}
+.board_list span { 
+    display: inline-block; 
+    text-align: center; 
+}
+.col_list{
+    margin: 0 2% 0 2%;
+}
+.col_list span{
+    vertical-align: middle;
+}
+.col_list .col1{    /* 번호 */
+    width: 5%;
+}
+.col_list .col2{    /* 게시일 */
+    width: 20%;
+}
+.col_list .col3{    /* 사진 */
+    width: 30%;
+}
+.col_list .col3 div{
+    margin: 0 auto;
+}
+.col_list .col3 div img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.col_list .col4{    /* 제목 */
+    width: 30%;
+}
+.col_list .col5{    /* 작성자 PC*/
+    width: 10%;
+}
+.col_list .col6{    /* 작성자 모바일 */
+    display: none;
+}
+.col3_img{
+    min-height: 50px;
+    width: 30%;
+}
+.img_icon img{
+    display: none;
+}
+
+/* 게시판 버튼 */
+.buttons { 
+    text-align: right; 
+    margin: 20px 20px 0 0; 
+}
+.buttons li { 
+    display: inline; 
+}
+.buttons button { 
+    width: 120px;
+    height: 30px;
+    vertical-align: middle;
+    margin: 2% 0 2% 0;
+    border: none;
+    cursor: pointer; 
+    color: white;
+    border-radius: 5px;
+    background-color: #557DE1;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/customer.css">
+    <link rel="stylesheet" href="./css/board.css">
+</head>
+<body>
+    <header class="py-3 border-bottom">
+        <div class="container d-flex flex-wrap justify-content-center">
+            <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+              <img src="./img/logo.png" alt="logo" width="80px" class="logo">
+              <img src="./img/title.png" alt="title" class="title">
+            </a>
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search" class="search">
+              <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+              <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+            </form>
+            <ul class="nav user">
+              <li class="nav-item"><a href="#" class="nav-link link-secondary px-2">Login</a></li>
+              <li class="nav-item"><a href="#" class="nav-link link-secondary text-white px-2">Sign up</a></li>
+            </ul>
+          </div>
+              <!-- 네비게이션 -->
+        <nav class="py-2">
+            <div class="container d-flex flex-wrap">
+              <ul class="nav me-auto nav-list">
+                <li class="nav-item"><a href="#" class="nav-link link-secondary text-white px-5">회사소개</a></li>
+                <li class="nav-item"><a href="#" class="nav-link link-secondary text-white px-5">카테고리</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">디지털기기</a></li>
+                        <li><a href="#">생활가전</a></li>
+                        <li><a href="#">가구</a></li>
+                        <li><a href="#">차량</a></li>
+                        <li><a href="#">신발</a></li>
+                        <li><a href="#">의류</a></li>
+                        <li><a href="#">취미/완구</a></li>
+                        <li><a href="#">시계</a></li>
+                        <li><a href="#">악기</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link link-secondary text-white px-5">견적문의</a></li>
+                <li class="nav-item"><a href="#" class="nav-link link-secondary text-white px-5">고객센터</a></li>
+              </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="main-box">
+                <div class="main-content">
+                    <h5>고객센터</h5>
+                    <ul class="board_list">
+                        <li class="col_list">
+                            <span class="col1">번호</span>
+                            <span class="col2">게시일</span>
+                            <span class="col3">사진</span>
+                            <span class="img_icon"></span>
+                            <span class="col4">제목</span>
+                            <span class="col5">작성자</span>
+                        </li>
+                    </ul>				                
+                    <ul class="buttons">
+                        <li><button onclick="location.href='/p3/garam_team/project3/board_form.php?table=_review'">업로드</button></li>
+                    </ul>		
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="d-flex flex-wrap justify-content-center footer">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3 footer-list">
+            <li class="nav-item"><a href="#" class="nav-link px-2">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2">About</a></li>
+          </ul>
+          <p class="text-center footer-bottom">© 2022 Company, Inc</p>
+        </footer>
+      </div>    
+
+</body>
+</html>
