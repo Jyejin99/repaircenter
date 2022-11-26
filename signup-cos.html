@@ -9,26 +9,36 @@
     <link rel="stylesheet" href="./css/signup.css">
 </head>
 <body>
-    <main class="container form-signin w-100 m-auto">
-        <div class="login-form">
+    <main class="form-signin w-100 m-auto">
+        <div class="signup-form text-center">
             <a href="/"><img class="mb-4" src="./img/logo.png" alt="logo" width="72" height="72"></a>
             <h1 class="h3 mb-3 fw-normal text-white form-title">회원가입</h1>
-            <div class="select-form">
-                <div class="select-list">
-                    <div class="company">
-                        <a href="#">
-                            <img src="./img/company.png" alt="company">
-                            기업회원 가입하기
-                        </a>
+            <div class="form-wrap">
+                <div class="form-box">
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">이메일</label>
                     </div>
-                    <div class="customer">
-                        <a href="#">
-                            <img src="./img/person.png" alt="company">
-                            고객회원 가입하기
-                        </a>
+                    <div class="form-floating mt-3 nickname">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="nickname">
+                        <label for="floatingInput">닉네임</label>
+                        <button class="w-50 btn btn-lg btn-primary">중복확인</button>
                     </div>
+                    <div class="form-floating mt-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="nickname">
+                        <label for="floatingInput">비밀번호</label>
+                    </div>
+                    <div class="form-floating mt-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="nickname">
+                        <label for="floatingInput">비밀번호 확인</label>
+                    </div>
+                    <div class="form-floating mt-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="nickname">
+                        <label for="floatingInput">전화번호</label>
+                    </div>
+                    <button class="w-100 btn btn-lg btn-primary sign-btn">sign-up</button>
+                    <a href="signup.html" class="text-center back">뒤로가기</a>
                 </div>
-
             </div>
         </div>
     </main>
