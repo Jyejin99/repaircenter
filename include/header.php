@@ -21,7 +21,7 @@
 <body>
     <header class="py-3 border-bottom">
         <div class="container d-flex flex-wrap justify-content-center">
-          <a href="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+          <a href="/repaircenter/index.php" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
             <img src="/repaircenter/img/logo.png" alt="logo" width="80px" class="logo">
             <img src="/repaircenter/img/title.png" alt="title" class="title">
           </a>
@@ -30,7 +30,7 @@
           </form>
           <ul class="nav user">
             <?php
-              if(!$useremail) {
+              if($useremail) {
                 ?>
             <li class="nav-item"><a href="/repaircenter/member/login_form.php" class="nav-link link-secondary px-2">Login</a></li>
             <li class="nav-item"><a href="/repaircenter/member/singup.php" class="nav-link link-secondary text-white px-2">Sign up</a></li>
@@ -38,7 +38,7 @@
             <?php
               } else {
             ?>
-              <li class="nav-item" class="nav-link link-secondary px-2">logout</li>
+              <li class="nav-item" class="nav-link link-secondary px-2"><a href="/repaircenter/index.php">logout</a></li>
             <?php
               }
             ?>
@@ -48,8 +48,8 @@
         <nav class="py-2">
             <div class="container d-flex flex-wrap">
               <ul class="nav me-auto nav-list">
-                <li class="nav-item"><a href="#" class="nav-link link-secondary text-white px-5">회사소개</a></li>
-                <li class="nav-item"><a href="#" class="nav-link link-secondary text-white px-5">카테고리</a>
+                <li class="nav-item"><a href="/repaircenter/page/des.php" class="nav-link link-secondary text-white px-5">회사소개</a></li>
+                <li class="nav-item"><a href="/repaircenter/page/categori.php" class="nav-link link-secondary text-white px-5">카테고리</a>
                     <ul class="sub-menu">
                         <li><a href="#">디지털기기</a></li>
                         <li><a href="#">생활가전</a></li>
@@ -62,8 +62,8 @@
                         <li><a href="#">악기</a></li>
                     </ul>
                 </li>
-                <li class="nav-item"><a href="#" class="nav-link link-secondary text-white px-5">견적문의</a></li>
-                <li class="nav-item"><a href="#" class="nav-link link-secondary text-white px-5">고객센터</a></li>
+                <li class="nav-item"><a href="/repaircenter/page/estimate.php" class="nav-link link-secondary text-white px-5">견적문의</a></li>
+                <li class="nav-item"><a href="/repaircenter/page/customer.php" class="nav-link link-secondary text-white px-5">고객센터</a></li>
               </ul>
             </div>
           </nav>

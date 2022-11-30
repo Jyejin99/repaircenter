@@ -3,6 +3,6 @@
   unset($_SESSION["useremail"]);
 
   echo "<script>
-  location.href = '/repaircenter/member/singup.php';
+  location.href = '/repaircenter/member/index.php';
   </script>";
 ?>

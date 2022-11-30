@@ -1,8 +1,8 @@
 <?php 
-  @$email = $_POST["email"];
-  @$pass = $_POST["pass"];
+  $email = $_POST["email"];
+  $pass = $_POST["pass"];
 
-  $con = mysqli_connect("localhost", "younghae", "1234", "repaircenter");
+  $con = mysqli_connect("localhost", "w1004mesmg", "sunmoons1s2s3!", "w1004mesmg");
   $sql = "select * from user where email='$email'";
   $result = mysqli_query($con, $sql);
 
@@ -15,7 +15,7 @@
   }
   else {
     @$row = mysqli_fetch_assoc($result);
-    $db_pass = @$row["pass"];
+    $db_pass = $row["pass"];
 
     mysqli_close($con);
 
@@ -28,10 +28,10 @@
     }
     else{
         session_start();
-        $_SESSION["useremail"] = @$row["email"];
+        $_SESSION["useremail"] = $row["email"];
 
         echo "<script>
-              location.href = '/repaircenter/member/singup.php';
+              location.href = '/repaircenter/index.php';
               </script>";
     }
   }

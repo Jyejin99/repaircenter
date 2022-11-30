@@ -90,6 +90,5 @@
   <?php
   include $_SERVER['DOCUMENT_ROOT']."/repaircenter/include/footer.php"
 ?>
-  </div>
 </body>
 </html>

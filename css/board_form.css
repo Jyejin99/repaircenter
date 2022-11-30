@@ -1,0 +1,25 @@
+* {
+    padding : 0;
+    margin : 0;
+  }
+  .board_from li {
+    list-style: none;
+    padding-top : 1%;
+  }
+  #board_f {
+    padding-top : 3%;
+  }
+  #save {
+      margin-left : 87%;
+      margin-bottom : 2%;
+      margin-top : 1%;
+  }
+  .sub_text {
+    border-radius : 7px;
+  }
+  #formFileSm {
+    width : 30% !important;
+  }
+  #sub {
+    width : 30% !important;
+  }
