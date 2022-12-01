@@ -31,7 +31,7 @@
                     </ul>		
                     <!-- 게시판 버튼 -->
                     <ul class="buttons">
-                        <li><button onclick="location.href='/repaircenter/page/mboard/form.php'">업로드</button></li>
+                        <li><button onclick="location.href='/repaircenter/page/mboard_customer/form.php'">업로드</button></li>
                     </ul>		
                 </div>
             </div>

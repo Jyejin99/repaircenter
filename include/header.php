@@ -7,7 +7,6 @@
     $useremail="";
   }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,19 +28,19 @@
             <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
           </form>
           <ul class="nav user">
-            <?php
-              if($useremail) {
-                ?>
+          <?php
+          if(!$useremail) {
+          ?>
             <li class="nav-item"><a href="/repaircenter/member/login_form.php" class="nav-link link-secondary px-2">Login</a></li>
             <li class="nav-item"><a href="/repaircenter/member/singup.php" class="nav-link link-secondary text-white px-2">Sign up</a></li>
 
-            <?php
-              } else {
-            ?>
+          <?php
+          } else {
+          ?>
               <li class="nav-item" class="nav-link link-secondary px-2"><a href="/repaircenter/index.php">logout</a></li>
-            <?php
-              }
-            ?>
+          <?php
+          }
+          ?>
           </ul>
         </div>
         <!-- 네비게이션 -->

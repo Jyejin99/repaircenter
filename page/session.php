@@ -5,7 +5,7 @@
        if(isset($_SESSION["useremail"]))
        $useremail = $_SESSION["useremail"];
      else{
-       $userid="";
+       $useremail="";
      }
     } 
 ?>

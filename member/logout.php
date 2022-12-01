@@ -1,8 +1,8 @@
 <?php 
   session_start();
-  unset($_SESSION["useremail"]);
+  session_destroy();
 
   echo "<script>
-  location.href = '/repaircenter/member/index.php';
+  location.href = '/repaircenter/index.php';
   </script>";
 ?>

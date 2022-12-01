@@ -12,9 +12,9 @@
 <body>
     <main class="form-signin w-100 m-auto">
         <div class="signup-form text-center">
-            <a href="/"><img class="mb-4" src="/repaircenter/img/logo.png" alt="logo" width="72" height="72"></a>
+            <a href="/repaircenter/index.php"><img class="mb-4" src="/repaircenter/img/logo.png" alt="logo" width="72" height="72"></a>
             <h1 class="h3 mb-3 fw-normal text-white form-title">회원가입(기업)</h1>
-            <form name="member-com" action="insert-com.php" method="post">
+            <form name="member-com" action="/repaircenter/member/insert-com.php" method="post">
               <div class="form-wrap">
                 <div class="form-box">
                     <div class="form-floating">

@@ -10,8 +10,8 @@
 </head>
 <body class="text-center">
     <main class="form-signin w-100 m-auto">
-        <form class="login-form" action="login.php" method="post">
-          <a href="/"><img class="mb-4" src="/repaircenter/img/logo.png" alt="logo" width="72" height="72"></a>
+        <form class="login-form" action="/repaircenter/member/login.php" method="post">
+          <a href="/repaircenter/index.php"><img class="mb-4" src="/repaircenter/img/logo.png" alt="logo" width="72" height="72"></a>
           <h1 class="h3 mb-3 fw-normal text-white form-title">로그인</h1>
       
           <div class="form-floating">
