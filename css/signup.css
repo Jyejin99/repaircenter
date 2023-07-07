@@ -86,7 +86,7 @@ a{
 }
 .company{
     max-width: 250px;
-    min-width: 150px;
+    min-width: 100px;
 }
 .company img{
     filter: invert(52%) sepia(53%) saturate(569%) hue-rotate(185deg) brightness(90%) contrast(97%); 
@@ -94,7 +94,7 @@ a{
 }
 .customer{
     max-width: 250px;
-    min-width: 150px;
+    min-width: 100px;
 }
 .customer img{
     filter: invert(52%) sepia(53%) saturate(569%) hue-rotate(185deg) brightness(90%) contrast(97%); 
@@ -140,4 +140,13 @@ a{
 .sign-btn{
     margin-top: 5%;
     background-color: #557DE1;
+}
+
+@media(max-width: 992px){
+    .select-list a{
+        font-size: 16px;
+    }
+    .btn-primary{
+        font-size: 16px;
+    }
 }

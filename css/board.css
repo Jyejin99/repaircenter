@@ -45,9 +45,7 @@
 .col_list .col5{    /* 작성자 PC*/
     width: 10%;
 }
-.col_list .col6{    /* 작성자 모바일 */
-    display: none;
-}
+
 .col3_img{
     min-height: 50px;
     width: 30%;
@@ -74,4 +72,26 @@
     color: white;
     border-radius: 5px;
     background-color: #557DE1;
+}
+
+@media(max-width:992px){
+    .col_list .co1{    /* 번호 */
+        width: 15%;
+    }
+    .col_list .col3{    /* 게시일 */
+        width: 25%;
+    }
+    .col_list .col3{    /* 사진 */
+        width: 15%;
+    }
+    .col_list .col3{    /* 제목 */
+        width: 30%;
+    }
+    .col_list .col3{    /* 작성자 */
+        width: 15%;
+    }
+    .col_list span{
+        font-size: 14px;
+        white-space: nowrap;
+    }
 }
